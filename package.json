@@ -1,0 +1,18 @@
+{
+  "name": "poc-line-message-api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.9.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^10.3.0",
+    "express": "^5.1.0"
+  }
+}
